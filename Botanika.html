@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Botanika</title>
     <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <nav class="header header__nav">
-        <div class="">
+        <div class="container">
+      <nav class="header header__nav col-lg-12">
           <a href="#">Каталог</a>
           <a href="#">Доставка и оплата</a>
           <a href="#">Отзывы</a>
@@ -18,8 +28,7 @@
           <a href="#">Спецпредложения</a>
           <a href="#">Контакты</a>
           <a href="#">Корзина</a>
-        </div>
-      </nav>
+      </nav></div>
     </header>
     <main>
       <article class="main-article">
@@ -158,28 +167,27 @@
       </section>
     </main>
     <footer>
-        <section class="address">
-            <div class="address__block">
-                <h2>Мы ждем вас</h2>
-                <p>Приходите к нам:</p>
-                <p>Санкт-Петербург,
-                    ул. Большая Конюшенная, 19</p>
-                <p>Режим работы:</p>
-                <p>Пн-Вск, с 9-00 до 20-00</p>
-                <p>Позвоните нам:</p>
-                <p>+ 7 (812) 983-47-19</p>
-                <p>Напишите нам:</p>
-                <p>info@botanika.ru</p>
-            </div>
-        </section>
-        <section class="footer">
-            <a href="#"><img src="img/Footer logo.svg" alt="Logo"></a>
-            <a href="#">Каталог</a>
-            <a href="#">Доставка и оплата</a>
-            <a href="#">Отзывы</a>
-            <a href="#">Спецпредложения</a>
-            <a href="#">Контакты</a>
-        </section>
+      <section class="address">
+        <div class="address__block">
+          <h2>Мы ждем вас</h2>
+          <p>Приходите к нам:</p>
+          <p>Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+          <p>Режим работы:</p>
+          <p>Пн-Вск, с 9-00 до 20-00</p>
+          <p>Позвоните нам:</p>
+          <p>+ 7 (812) 983-47-19</p>
+          <p>Напишите нам:</p>
+          <p>info@botanika.ru</p>
+        </div>
+      </section>
+      <section class="footer">
+        <a href="#"><img src="img/Footer logo.svg" alt="Logo" /></a>
+        <a href="#">Каталог</a>
+        <a href="#">Доставка и оплата</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Спецпредложения</a>
+        <a href="#">Контакты</a>
+      </section>
     </footer>
   </body>
 </html>

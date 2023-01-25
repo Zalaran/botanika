@@ -1,3 +1,26 @@
 a {
     text-decoration: none;
 }
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.header {
+    margin: 26px 0;
+}
+
+.header__nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
